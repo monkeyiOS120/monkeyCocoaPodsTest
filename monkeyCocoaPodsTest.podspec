@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "monkeyCocoaPodsTest"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Toast Demo"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Sources", "Sources/*.{h,m,framework,bundle}"
+  s.source_files  = "Sources", "Sources/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -122,6 +122,8 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
+
+  s.vendored_frameworks = 'Monkey.framework'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
