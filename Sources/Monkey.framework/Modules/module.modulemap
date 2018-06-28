@@ -1,0 +1,6 @@
+framework module Monkey {
+  umbrella header "Monkey.h"
+
+  export *
+  module * { export * }
+}
